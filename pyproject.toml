@@ -1,0 +1,9 @@
+[project]
+name = "diff-tool"
+version = "0.1.0"
+description = "simple diff cli"
+authors = [{name = "yourname"}]
+requires-python = ">=3.8"
+
+[project.scripts]
+diff = "main:run"
