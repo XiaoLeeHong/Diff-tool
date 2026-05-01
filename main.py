@@ -26,4 +26,8 @@ p.add_argument("file2")
 p.add_argument("--no-color", action="store_true")
 
 args = p.parse_args()
+
+try:
 run(args.file1, args.file2, not args.no_color)
+except FileNotFoundError:
+    print("file not found")
