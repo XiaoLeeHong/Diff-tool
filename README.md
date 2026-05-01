@@ -1,4 +1,4 @@
-# diff tool
+# Diff tool
 
 simple terminal tool to compare two text files
 
